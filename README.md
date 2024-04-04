@@ -27,7 +27,7 @@ This repository showcases my SQL projects. Feel free to explore and reach out wi
 
 | Project Name | Description | Link |
 |:------------:|-------------|:----:|
-| Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](./Superstore_Database.sql) |
+| Superstore                 | This project conducts a comprehensive analysis of a Superstore's inventory through SQL, focusing on the cataloging of products, pricing strategies, and sales performance across different categories. It aims to optimize inventory management, identify high-value product segments, and enhance the store's overall financial performance by utilizing targeted queries for sorting, aggregating, and examining product data based on pricing, stock levels, and category insights. | [View](./Superstore_Database.sql) |
 | Fortune 500 Company Stats 2023               | This project provides a detailed analysis of the Fortune 500 companies for 2023, focusing on the distribution of female leadership across sectors, the market value of New York-based companies by industry, and identifying rapidly growing newcomers with fewer than 5,000 employees. | [View](./Fortune_500_Company_Stats_2023.sql) |
 
 ### Let's Connect!
