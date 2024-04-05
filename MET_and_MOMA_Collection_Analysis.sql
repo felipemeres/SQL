@@ -1,3 +1,22 @@
+/*
+ * Museum Art Collection Analysis Project
+ * Filename: MuseumArtCollectionAnalysis.sql
+ *
+ * This project showcases a series of SQL queries designed to analyze and cross-reference art collection data
+ * from two prominent museum databases: MoMA (Museum of Modern Art) and the Metropolitan Museum of Art. 
+ * It includes operations such as extracting unique tags from artworks, aggregating artworks by these tags,
+ * and joining artist information across both collections based on ULAN (Union List of Artist Names) IDs.
+ *
+ * The queries perform tasks such as:
+ * - Identifying unique tags across artworks and counting their occurrences.
+ * - Aggregating titles of artworks associated with each tag.
+ * - Matching artists from MoMA to artworks in the Met collection based on ULAN IDs, and vice versa.
+ * - Grouping and counting Met artworks associated with MoMA artists.
+ *
+ * This analysis provides insights into how artists and artworks are interconnected across these collections,
+ * offering a data-driven perspective on the categorization and attribution of artworks within major museum databases.
+ */
+
 -- Query 1: Extract and list all unique tags from the 'metobjects' table.
 -- Each tag is split from a delimited string in the 'tags' column.
 -- Results are ordered alphabetically by tag.
