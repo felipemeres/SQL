@@ -8,6 +8,9 @@ The schema consists of two tables:
 The data insertion part populates these tables with sample data, representing a diverse array of titles along with their associated people (directors and cast), demonstrating how to structure and enter data into a relational database.
 
 Overall, this script demonstrates effective database design, data manipulation, and querying techniques to extract meaningful information from a structured dataset, offering a practical example of SQL skills applied to real-world scenarios in a content streaming context.
+
+Source Data
+This project utilized data from the Netflix database stored at https://www.db-fiddle.com/f/pfsdrKi9cgCDp4Wwb77AF/0
 */
 
 -- Creation of netflix_titles_info table to store basic information about Netflix titles
