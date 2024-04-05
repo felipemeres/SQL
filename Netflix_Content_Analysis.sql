@@ -1,5 +1,5 @@
 /*
-This SQL script is designed for managing and querying a database containing information about titles (movies and TV shows) available on Netflix. It encompasses two primary aspects: schema definition with data insertion and data retrieval queries for analytical insights.
+This PostgreSQL script is designed for managing and querying a database containing information about titles (movies and TV shows) available on Netflix. It encompasses two primary aspects: schema definition with data insertion and data retrieval queries for analytical insights.
 
 The schema consists of two tables:
 1. netflix_titles_info: Stores essential details about each title, including its type (movie or TV show), name, production country, addition date to Netflix, release year, rating, duration, and categories listed in.
@@ -77,7 +77,7 @@ VALUES
 
 -- Select query to join netflix_people and netflix_titles_info tables and limit the results to the first 5
 SELECT * 
-FROM netflix_people p, netflix_titles_info t
+FROM "netflix_people" p, "netflix_titles_info" t
 WHERE p.show_id = t.show_id
 LIMIT 5;
 
@@ -99,7 +99,7 @@ ORDER BY title;
 
 -- Query to find the director of the movie "The Starling"
 SELECT p.director
-FROM netflix_people p, netflix_titles_info t
+FROM "netflix_people" p, "netflix_titles_info" t
 WHERE p.show_id = t.show_id
 AND t.title = 'The Starling';
 
